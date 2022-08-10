@@ -1,0 +1,1153 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://vizzuhq.github.io/ipyvizzu-story/docs/environments.html">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.3.9">
+    
+    
+      
+        <title>Environments - ipyvizzu-story</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.1d29e8d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#environments" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../index.html" title="ipyvizzu-story" class="md-header__button md-logo" aria-label="ipyvizzu-story" data-md-component="logo">
+      
+  <img src="../assets/home.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ipyvizzu-story
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Environments
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/vizzuhq/ipyvizzu-story" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="ipyvizzu-story" class="md-nav__button md-logo" aria-label="ipyvizzu-story" data-md-component="logo">
+      
+  <img src="../assets/home.png" alt="logo">
+
+    </a>
+    ipyvizzu-story
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/vizzuhq/ipyvizzu-story" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="index.html">Docs</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Docs" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Docs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="installation.html" class="md-nav__link">
+        Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tutorial.html" class="md-nav__link">
+        Tutorial
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Environments
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="environments.html" class="md-nav__link md-nav__link--active">
+        Environments
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#jupyteripython" class="md-nav__link">
+    Jupyter/IPython
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#streamlit" class="md-nav__link">
+    Streamlit
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel" class="md-nav__link">
+    Panel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    Python
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../examples/index.html">Examples</a>
+          
+            <label for="__nav_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Examples" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Examples
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../examples/basic/basic.html" class="md-nav__link">
+        Basic example
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../examples/complex/complex.html" class="md-nav__link">
+        Complex example
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../api/ipyvizzustory/index.html">API</a>
+          
+            <label for="__nav_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="API" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          API
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" >
+      
+      
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../api/ipyvizzustory/env/index.html">Env</a>
+          
+            <label for="__nav_4_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Env" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Env
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1_1" type="checkbox" id="__nav_4_1_1" >
+      
+      
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../api/ipyvizzustory/env/ipy/index.html">Ipy</a>
+          
+            <label for="__nav_4_1_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Ipy" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Ipy
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/ipyvizzustory/env/ipy/story.html" class="md-nav__link">
+        Story
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1_2" type="checkbox" id="__nav_4_1_2" >
+      
+      
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../api/ipyvizzustory/env/pn/index.html">Pn</a>
+          
+            <label for="__nav_4_1_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Pn" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Pn
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/ipyvizzustory/env/pn/story.html" class="md-nav__link">
+        Story
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1_3" type="checkbox" id="__nav_4_1_3" >
+      
+      
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../api/ipyvizzustory/env/py/index.html">Py</a>
+          
+            <label for="__nav_4_1_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Py" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Py
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/ipyvizzustory/env/py/story.html" class="md-nav__link">
+        Story
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1_4" type="checkbox" id="__nav_4_1_4" >
+      
+      
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../api/ipyvizzustory/env/st/index.html">St</a>
+          
+            <label for="__nav_4_1_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="St" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          St
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/ipyvizzustory/env/st/story.html" class="md-nav__link">
+        Story
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../api/ipyvizzustory/storylib/index.html">Storylib</a>
+          
+            <label for="__nav_4_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Storylib" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Storylib
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/ipyvizzustory/storylib/animation.html" class="md-nav__link">
+        Animation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/ipyvizzustory/storylib/story.html" class="md-nav__link">
+        Story
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/ipyvizzustory/storylib/template.html" class="md-nav__link">
+        Template
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#jupyteripython" class="md-nav__link">
+    Jupyter/IPython
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#streamlit" class="md-nav__link">
+    Streamlit
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel" class="md-nav__link">
+    Panel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    Python
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="environments">Environments</h1>
+<p>You can use ipyvizzu-story in Jupyter, Streamlit, Panel or Python environments. ipyvizzu-story tries to figure out the environment and import the correct type of Story, however Story could be imported with full path.</p>
+<h2 id="jupyteripython">Jupyter/IPython</h2>
+<p>In Jupyter/IPython environment, ipyvizzu-story can display and export the created story.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">ipyvizzu</span> <span class="kn">import</span> <span class="n">Data</span><span class="p">,</span> <span class="n">Config</span>
+<span class="kn">from</span> <span class="nn">ipyvizzustory</span> <span class="kn">import</span> <span class="n">Slide</span><span class="p">,</span> <span class="n">Step</span>
+
+<span class="kn">from</span> <span class="nn">ipyvizzustory</span> <span class="kn">import</span> <span class="n">Story</span>  <span class="c1"># or</span>
+<span class="c1"># from ipyvizzustory.env.ipy.story import Story</span>
+
+
+<span class="n">data</span> <span class="o">=</span> <span class="n">Data</span><span class="p">()</span>
+<span class="n">data</span><span class="o">.</span><span class="n">add_series</span><span class="p">(</span><span class="s2">&quot;Foo&quot;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;Alice&quot;</span><span class="p">,</span> <span class="s2">&quot;Bob&quot;</span><span class="p">,</span> <span class="s2">&quot;Ted&quot;</span><span class="p">])</span>
+<span class="n">data</span><span class="o">.</span><span class="n">add_series</span><span class="p">(</span><span class="s2">&quot;Bar&quot;</span><span class="p">,</span> <span class="p">[</span><span class="mi">15</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">12</span><span class="p">])</span>
+<span class="n">data</span><span class="o">.</span><span class="n">add_series</span><span class="p">(</span><span class="s2">&quot;Baz&quot;</span><span class="p">,</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">])</span>
+
+<span class="n">story</span> <span class="o">=</span> <span class="n">Story</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
+
+<span class="n">slide1</span> <span class="o">=</span> <span class="n">Slide</span><span class="p">(</span>
+    <span class="n">Step</span><span class="p">(</span>
+        <span class="n">Config</span><span class="p">({</span><span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="s2">&quot;Foo&quot;</span><span class="p">,</span> <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="s2">&quot;Bar&quot;</span><span class="p">}),</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+<span class="n">story</span><span class="o">.</span><span class="n">add_slide</span><span class="p">(</span><span class="n">slide1</span><span class="p">)</span>
+
+<span class="n">slide2</span> <span class="o">=</span> <span class="n">Slide</span><span class="p">(</span>
+    <span class="n">Step</span><span class="p">(</span>
+        <span class="n">Config</span><span class="p">({</span><span class="s2">&quot;color&quot;</span><span class="p">:</span> <span class="s2">&quot;Foo&quot;</span><span class="p">,</span> <span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="s2">&quot;Baz&quot;</span><span class="p">,</span> <span class="s2">&quot;geometry&quot;</span><span class="p">:</span> <span class="s2">&quot;circle&quot;</span><span class="p">}),</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+<span class="n">story</span><span class="o">.</span><span class="n">add_slide</span><span class="p">(</span><span class="n">slide2</span><span class="p">)</span>
+</code></pre></div>
+<p>You can change the CSS style width and height parameters of your story with the <code>set_size</code> method.</p>
+<p>Note: In some of the Jupyter/IPython environments, the width and height must be set in pixels to display the story correctly.</p>
+<div class="highlight"><pre><span></span><code><span class="n">story</span><span class="o">.</span><span class="n">set_size</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s2">&quot;800px&quot;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="s2">&quot;480px&quot;</span><span class="p">)</span>
+</code></pre></div>
+<p>You can export your pure story into a html file with the <code>export_to_html</code> method.</p>
+<div class="highlight"><pre><span></span><code><span class="n">story</span><span class="o">.</span><span class="n">export_to_html</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s2">&quot;mystory.html&quot;</span><span class="p">)</span>
+</code></pre></div>
+<p>You can display your story with the <code>play</code> method,</p>
+<div class="highlight"><pre><span></span><code><span class="n">story</span><span class="o">.</span><span class="n">play</span><span class="p">()</span>
+</code></pre></div>
+<p>or you can also use the <code>_repr_html_</code> method.</p>
+<div class="highlight"><pre><span></span><code><span class="n">story</span>
+</code></pre></div>
+<p>Install ipyvizzu-story (see <a href="installation.html">Installation chapter</a> of our documentation site),</p>
+<div class="highlight"><pre><span></span><code>pip install ipyvizzu-story<span class="o">[</span>jupyter<span class="o">]</span>
+</code></pre></div>
+<p>and place the above codes in a Jupyter Notebook cell in order to try it.</p>
+<h2 id="streamlit">Streamlit</h2>
+<p>In Streamlit environment, ipyvizzu-story can display and export the created story.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">ipyvizzu</span> <span class="kn">import</span> <span class="n">Data</span><span class="p">,</span> <span class="n">Config</span>
+<span class="kn">from</span> <span class="nn">ipyvizzustory</span> <span class="kn">import</span> <span class="n">Slide</span><span class="p">,</span> <span class="n">Step</span>
+
+<span class="kn">from</span> <span class="nn">ipyvizzustory</span> <span class="kn">import</span> <span class="n">Story</span>  <span class="c1"># or</span>
+<span class="c1"># from ipyvizzustory.env.st.story import Story</span>
+
+
+<span class="n">data</span> <span class="o">=</span> <span class="n">Data</span><span class="p">()</span>
+<span class="n">data</span><span class="o">.</span><span class="n">add_series</span><span class="p">(</span><span class="s2">&quot;Foo&quot;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;Alice&quot;</span><span class="p">,</span> <span class="s2">&quot;Bob&quot;</span><span class="p">,</span> <span class="s2">&quot;Ted&quot;</span><span class="p">])</span>
+<span class="n">data</span><span class="o">.</span><span class="n">add_series</span><span class="p">(</span><span class="s2">&quot;Bar&quot;</span><span class="p">,</span> <span class="p">[</span><span class="mi">15</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">12</span><span class="p">])</span>
+<span class="n">data</span><span class="o">.</span><span class="n">add_series</span><span class="p">(</span><span class="s2">&quot;Baz&quot;</span><span class="p">,</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">])</span>
+
+<span class="n">story</span> <span class="o">=</span> <span class="n">Story</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
+
+<span class="n">slide1</span> <span class="o">=</span> <span class="n">Slide</span><span class="p">(</span>
+    <span class="n">Step</span><span class="p">(</span>
+        <span class="n">Config</span><span class="p">({</span><span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="s2">&quot;Foo&quot;</span><span class="p">,</span> <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="s2">&quot;Bar&quot;</span><span class="p">}),</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+<span class="n">story</span><span class="o">.</span><span class="n">add_slide</span><span class="p">(</span><span class="n">slide1</span><span class="p">)</span>
+
+<span class="n">slide2</span> <span class="o">=</span> <span class="n">Slide</span><span class="p">(</span>
+    <span class="n">Step</span><span class="p">(</span>
+        <span class="n">Config</span><span class="p">({</span><span class="s2">&quot;color&quot;</span><span class="p">:</span> <span class="s2">&quot;Foo&quot;</span><span class="p">,</span> <span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="s2">&quot;Baz&quot;</span><span class="p">,</span> <span class="s2">&quot;geometry&quot;</span><span class="p">:</span> <span class="s2">&quot;circle&quot;</span><span class="p">}),</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+<span class="n">story</span><span class="o">.</span><span class="n">add_slide</span><span class="p">(</span><span class="n">slide2</span><span class="p">)</span>
+</code></pre></div>
+<p>Note: In Streamlit environment you need to set the width and height of your story in pixels as int.</p>
+<div class="highlight"><pre><span></span><code><span class="n">story</span><span class="o">.</span><span class="n">set_size</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">480</span><span class="p">)</span>
+</code></pre></div>
+<p>You can export your pure story into a html file with the <code>export_to_html</code> method.</p>
+<div class="highlight"><pre><span></span><code><span class="n">story</span><span class="o">.</span><span class="n">export_to_html</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s2">&quot;mystory.html&quot;</span><span class="p">)</span>
+</code></pre></div>
+<p>You can display your story with the <code>play</code> method.</p>
+<div class="highlight"><pre><span></span><code><span class="n">story</span><span class="o">.</span><span class="n">play</span><span class="p">()</span>
+</code></pre></div>
+<p>Install ipyvizzu-story (see <a href="installation.html">Installation chapter</a> of our documentation site),</p>
+<div class="highlight"><pre><span></span><code>pip install ipyvizzu-story<span class="o">[</span>streamlit<span class="o">]</span>
+</code></pre></div>
+<p>and place the above code in a file (for example called <code>ipyvizzustory_example.py</code>)
+and run the following command in order to try it.</p>
+<div class="highlight"><pre><span></span><code>streamlit run ipyvizzustory_example.py
+</code></pre></div>
+<h2 id="panel">Panel</h2>
+<p>In Panel environment, ipyvizzu-story can display and export the created story.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">ipyvizzu</span> <span class="kn">import</span> <span class="n">Data</span><span class="p">,</span> <span class="n">Config</span>
+<span class="kn">from</span> <span class="nn">ipyvizzustory</span> <span class="kn">import</span> <span class="n">Slide</span><span class="p">,</span> <span class="n">Step</span>
+<span class="kn">from</span> <span class="nn">ipyvizzustory.env.pn.story</span> <span class="kn">import</span> <span class="n">Story</span>
+
+
+<span class="n">data</span> <span class="o">=</span> <span class="n">Data</span><span class="p">()</span>
+<span class="n">data</span><span class="o">.</span><span class="n">add_series</span><span class="p">(</span><span class="s2">&quot;Foo&quot;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;Alice&quot;</span><span class="p">,</span> <span class="s2">&quot;Bob&quot;</span><span class="p">,</span> <span class="s2">&quot;Ted&quot;</span><span class="p">])</span>
+<span class="n">data</span><span class="o">.</span><span class="n">add_series</span><span class="p">(</span><span class="s2">&quot;Bar&quot;</span><span class="p">,</span> <span class="p">[</span><span class="mi">15</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">12</span><span class="p">])</span>
+<span class="n">data</span><span class="o">.</span><span class="n">add_series</span><span class="p">(</span><span class="s2">&quot;Baz&quot;</span><span class="p">,</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">])</span>
+
+<span class="n">story</span> <span class="o">=</span> <span class="n">Story</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
+
+<span class="n">slide1</span> <span class="o">=</span> <span class="n">Slide</span><span class="p">(</span>
+    <span class="n">Step</span><span class="p">(</span>
+        <span class="n">Config</span><span class="p">({</span><span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="s2">&quot;Foo&quot;</span><span class="p">,</span> <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="s2">&quot;Bar&quot;</span><span class="p">}),</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+<span class="n">story</span><span class="o">.</span><span class="n">add_slide</span><span class="p">(</span><span class="n">slide1</span><span class="p">)</span>
+
+<span class="n">slide2</span> <span class="o">=</span> <span class="n">Slide</span><span class="p">(</span>
+    <span class="n">Step</span><span class="p">(</span>
+        <span class="n">Config</span><span class="p">({</span><span class="s2">&quot;color&quot;</span><span class="p">:</span> <span class="s2">&quot;Foo&quot;</span><span class="p">,</span> <span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="s2">&quot;Baz&quot;</span><span class="p">,</span> <span class="s2">&quot;geometry&quot;</span><span class="p">:</span> <span class="s2">&quot;circle&quot;</span><span class="p">}),</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+<span class="n">story</span><span class="o">.</span><span class="n">add_slide</span><span class="p">(</span><span class="n">slide2</span><span class="p">)</span>
+</code></pre></div>
+<p>Note: In Panel environment if you want to use the <code>play</code> method,
+you need to set the width and height of your story in pixels.</p>
+<div class="highlight"><pre><span></span><code><span class="n">story</span><span class="o">.</span><span class="n">set_size</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s2">&quot;800px&quot;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="s2">&quot;480px&quot;</span><span class="p">)</span>
+</code></pre></div>
+<p>You can export your pure story into a html file with the <code>export_to_html</code> method.</p>
+<div class="highlight"><pre><span></span><code><span class="n">story</span><span class="o">.</span><span class="n">export_to_html</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s2">&quot;mystory.html&quot;</span><span class="p">)</span>
+</code></pre></div>
+<p>You can display your story with the <code>play</code> method,</p>
+<div class="highlight"><pre><span></span><code><span class="n">story</span><span class="o">.</span><span class="n">play</span><span class="p">()</span>
+</code></pre></div>
+<p>or you can customize the Panel environment before displaying your story,</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">panel</span> <span class="k">as</span> <span class="nn">pn</span>
+
+<span class="c1"># ...</span>
+
+<span class="n">pn</span><span class="o">.</span><span class="n">extension</span><span class="p">(</span><span class="n">sizing_mode</span><span class="o">=</span><span class="s2">&quot;stretch_width&quot;</span><span class="p">,</span> <span class="n">template</span><span class="o">=</span><span class="s2">&quot;fast&quot;</span><span class="p">)</span>
+
+<span class="n">pn</span><span class="o">.</span><span class="n">state</span><span class="o">.</span><span class="n">template</span><span class="o">.</span><span class="n">param</span><span class="o">.</span><span class="n">update</span><span class="p">(</span>
+    <span class="n">title</span><span class="o">=</span><span class="s2">&quot;ipyvizzu-story&quot;</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="n">story</span><span class="o">.</span><span class="n">play</span><span class="p">()</span>
+</code></pre></div>
+<p>or if you would like to customize it completely,
+you can do it with the <code>_repr_html_</code> method.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">panel</span> <span class="k">as</span> <span class="nn">pn</span>
+
+<span class="c1"># ...</span>
+
+<span class="n">pn</span><span class="o">.</span><span class="n">extension</span><span class="p">(</span><span class="n">sizing_mode</span><span class="o">=</span><span class="s2">&quot;stretch_width&quot;</span><span class="p">,</span> <span class="n">template</span><span class="o">=</span><span class="s2">&quot;fast&quot;</span><span class="p">)</span>
+
+<span class="n">pn</span><span class="o">.</span><span class="n">state</span><span class="o">.</span><span class="n">template</span><span class="o">.</span><span class="n">param</span><span class="o">.</span><span class="n">update</span><span class="p">(</span>
+    <span class="n">title</span><span class="o">=</span><span class="s2">&quot;ipyvizzu-story&quot;</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="n">pn</span><span class="o">.</span><span class="n">pane</span><span class="o">.</span><span class="n">HTML</span><span class="p">(</span>
+    <span class="n">story</span><span class="p">,</span>
+    <span class="n">height</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span>
+    <span class="n">sizing_mode</span><span class="o">=</span><span class="s2">&quot;stretch_both&quot;</span>
+<span class="p">)</span><span class="o">.</span><span class="n">servable</span><span class="p">()</span>
+</code></pre></div>
+<p>Install ipyvizzu-story (see <a href="installation.html">Installation chapter</a> of our documentation site),</p>
+<div class="highlight"><pre><span></span><code>pip install ipyvizzu-story<span class="o">[</span>panel<span class="o">]</span>
+</code></pre></div>
+<p>and place the above code in a file (for example called <code>ipyvizzustory_example.py</code>)
+and run the following command in order to try it.</p>
+<div class="highlight"><pre><span></span><code>panel serve ipyvizzustory_example.py --autoreload
+</code></pre></div>
+<h2 id="python">Python</h2>
+<p>In Python environment, ipyvizzu-story can can export the created story to an html file.</p>
+<p>Note: In Python environment ipyvizzu-story can not display the created story.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">ipyvizzu</span> <span class="kn">import</span> <span class="n">Data</span><span class="p">,</span> <span class="n">Config</span>
+<span class="kn">from</span> <span class="nn">ipyvizzustory</span> <span class="kn">import</span> <span class="n">Slide</span><span class="p">,</span> <span class="n">Step</span>
+<span class="kn">from</span> <span class="nn">ipyvizzustory</span> <span class="kn">import</span> <span class="n">Story</span>  <span class="c1"># or</span>
+<span class="c1"># from ipyvizzustory.env.py.story import Story</span>
+
+
+<span class="n">data</span> <span class="o">=</span> <span class="n">Data</span><span class="p">()</span>
+<span class="n">data</span><span class="o">.</span><span class="n">add_series</span><span class="p">(</span><span class="s2">&quot;Foo&quot;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;Alice&quot;</span><span class="p">,</span> <span class="s2">&quot;Bob&quot;</span><span class="p">,</span> <span class="s2">&quot;Ted&quot;</span><span class="p">])</span>
+<span class="n">data</span><span class="o">.</span><span class="n">add_series</span><span class="p">(</span><span class="s2">&quot;Bar&quot;</span><span class="p">,</span> <span class="p">[</span><span class="mi">15</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">12</span><span class="p">])</span>
+<span class="n">data</span><span class="o">.</span><span class="n">add_series</span><span class="p">(</span><span class="s2">&quot;Baz&quot;</span><span class="p">,</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">])</span>
+
+<span class="n">story</span> <span class="o">=</span> <span class="n">Story</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
+
+<span class="n">slide1</span> <span class="o">=</span> <span class="n">Slide</span><span class="p">(</span>
+    <span class="n">Step</span><span class="p">(</span>
+        <span class="n">Config</span><span class="p">({</span><span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="s2">&quot;Foo&quot;</span><span class="p">,</span> <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="s2">&quot;Bar&quot;</span><span class="p">}),</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+<span class="n">story</span><span class="o">.</span><span class="n">add_slide</span><span class="p">(</span><span class="n">slide1</span><span class="p">)</span>
+
+<span class="n">slide2</span> <span class="o">=</span> <span class="n">Slide</span><span class="p">(</span>
+    <span class="n">Step</span><span class="p">(</span>
+        <span class="n">Config</span><span class="p">({</span><span class="s2">&quot;color&quot;</span><span class="p">:</span> <span class="s2">&quot;Foo&quot;</span><span class="p">,</span> <span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="s2">&quot;Baz&quot;</span><span class="p">,</span> <span class="s2">&quot;geometry&quot;</span><span class="p">:</span> <span class="s2">&quot;circle&quot;</span><span class="p">}),</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+<span class="n">story</span><span class="o">.</span><span class="n">add_slide</span><span class="p">(</span><span class="n">slide2</span><span class="p">)</span>
+
+<span class="n">story</span><span class="o">.</span><span class="n">export_to_html</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s2">&quot;mystory.html&quot;</span><span class="p">)</span>
+</code></pre></div>
+<p>Install ipyvizzu-story (see <a href="installation.html">Installation chapter</a> of our documentation site),</p>
+<div class="highlight"><pre><span></span><code>pip install ipyvizzu-story
+</code></pre></div>
+<p>and place the above code in a file (for example called <code>ipyvizzustory_example.py</code>)
+and run the following command in order to try it.</p>
+<div class="highlight"><pre><span></span><code>python3 ipyvizzustory_example.py
+</code></pre></div>
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="tutorial.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Tutorial" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Tutorial
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../examples/index.html" class="md-footer__link md-footer__link--next" aria-label="Next: Examples" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Examples
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+      
+    
+  </body>
+</html>
